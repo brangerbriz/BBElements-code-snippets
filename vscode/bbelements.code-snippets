@@ -50,7 +50,7 @@
 	"BBElements logo snippet": {
 		"prefix": "bb.logo",
 		"body": [
-		  "<!- BB LOGO OPTIONAL HTML ATTRIBUTES",
+		  "<!-- BB LOGO OPTIONAL HTML ATTRIBUTES",
 		  "    - width: changes the size of the logo.",
 		  "    - href: specifies where to link the logo to. When no href is specified the link defaults to our website, when set to href=\"false\" it won't link anywhere.",
 		  "    - data-sub-title: adds a sub-title below the logo.",
