@@ -1,0 +1,145 @@
+# Your snippets
+#
+# Atom snippets allow you to enter a simple prefix in the editor and hit tab to
+# expand the prefix into a larger code block with templated values.
+#
+# You can create a new snippet in this file by typing "snip" and then hitting
+# tab.
+#
+# An example CoffeeScript snippet to expand log to console.log:
+#
+# '.source.coffee':
+#   'Console log':
+#     'prefix': 'log'
+#     'body': 'console.log $1'
+#
+# Each scope (e.g. '.source.coffee' above) can only be declared once.
+#
+# This file uses CoffeeScript Object Notation (CSON).
+# If you are unfamiliar with CSON, you can read more about it in the
+# Atom Flight Manual:
+# http://flight-manual.atom.io/using-atom/sections/basic-customization/#_cson
+
+'.html, .md':
+    # https://snippet-generator.app/?description=BBElements+CSS+includes+snippet&tabtrigger=bb.css&snippet=%3C%21--+required%3A+this+is+all+the+base64+%40font-faces+%28avoids+FOUT%29+--%3E%0A%3Clink+rel%3D%22stylesheet%22+href%3D%22css%2Fbb-fonts.css%22%3E%0A%3C%21--+required%3A+this+is+the+core+styles+file+--%3E%0A%3Clink+rel%3D%22stylesheet%22+href%3D%22css%2Fbb-styles.css%22%3E%0A%0A%3C%21--+optionally%3A+if+you+want+media-queries+for+responsive+layout+--%3E%0A%3Clink+rel%3D%22stylesheet%22+href%3D%22css%2Fbb-responsive.css%22%3E%0A%3C%21--+optionally%3A+if+you+want+code+snippets+to+be+syntax+highlighted+--%3E%0A%3Clink+rel%3D%22stylesheet%22+href%3D%22css%2Fbb-code-colors.css%22%3E%0A%3C%21--+optionally%3A+if+you+want+animations+on+load+--%3E%0A%3Clink+rel%3D%22stylesheet%22+href%3D%22css%2Fbb-animations.css%22%3E&mode=atom
+    'BBElements CSS includes snippet':
+      'prefix': 'bb.css'
+      'body': """
+        <!-- required: this is all the base64 @font-faces (avoids FOUT) -->
+        <link rel="stylesheet" href="css/bb-fonts.css">
+        <!-- required: this is the core styles file -->
+        <link rel="stylesheet" href="css/bb-styles.css">
+        
+        <!-- optionally: if you want media-queries for responsive layout -->
+        <link rel="stylesheet" href="css/bb-responsive.css">
+        <!-- optionally: if you want code snippets to be syntax highlighted -->
+        <link rel="stylesheet" href="css/bb-code-colors.css">
+        <!-- optionally: if you want animations on load -->
+        <link rel="stylesheet" href="css/bb-animations.css">
+      """
+    # https://snippet-generator.app/?description=BBElements+script+includes+snippet&tabtrigger=bb.scripts&snippet=%3C%21--+optionally%3A+if+you+want+code+snippets+to+be+syntax+highlighted+--%3E%0A%3Cscript+src%3D%22js%2FhighlightJS%2Fhighlight.pack.js%22%3E%3C%2Fscript%3E%0A%3C%21--+required%3A+handles+misc+logic+%28logo%2C+marginal+notes%2C+captions%2C+etc%29+--%3E%0A%3Cscript+src%3D%22js%2FBBElements.js%22%3E%3C%2Fscript%3E&mode=atom
+    'BBElements script includes snippet':
+      'prefix': 'bb.scripts'
+      'body': """
+        <!-- optionally: if you want code snippets to be syntax highlighted -->
+        <script src="js/highlightJS/highlight.pack.js"></script>
+        <!-- required: handles misc logic (logo, marginal notes, captions, etc) -->
+        <script src="js/BBElements.js"></script>
+      """
+
+     # https://snippet-generator.app/?description=BBElements+logo+snippet&tabtrigger=bb.logo&snippet=%3C%21-+BB+LOGO+OPTIONAL+HTML+ATTRIBUTES%0A++++-+width%3A+changes+the+size+of+the+logo.%0A++++-+href%3A+specifies+where+to+link+the+logo+to.+When+no+href+is+specified+the+link+defaults+to+our+website%2C+when+set+to+href%3D%22false%22+it+won%27t+link+anywhere.%0A++++-+data-sub-title%3A+adds+a+sub-title+below+the+logo.%0A++++-+data-brand-color%3A+which+changes+the+default+pink+color.%0A++++-+data-text-color%3A+which+changes+the+default+black+text+color.%0A++++-+data-fill-color%3A+which+changes+the+white+color+of+the+B+inside+the+circle+mark.%0A++++-+data-mark-only%3A+if+set+to+%22true%22+it+only+renders+the+%28B%29+mark%2C+if+set+to+%22mobile%22+it+only+renders+the+%28B%29+mark+when+innerWidth+is+less+than+767px+%28assuming+you+are+using+bb-responsive-styles.css%29+positioned+on+the+left%2C+or+to+position+the+mobile+%28B%29+on+the+right+you+can+also+set+it+to+%22mobile-right%22%0A--%3E%0A%3Csection+id%3D%22logo%22%3E%3C%2Fsection%3E&mode=atom
+    'BBElements logo snippet':
+      'prefix': 'bb.logo'
+      'body': """
+        <!-- BB LOGO OPTIONAL HTML ATTRIBUTES
+            - width: changes the size of the logo.
+            - href: specifies where to link the logo to. When no href is specified the link defaults to our website, when set to href="false" it won't link anywhere.
+            - data-sub-title: adds a sub-title below the logo.
+            - data-brand-color: which changes the default pink color.
+            - data-text-color: which changes the default black text color.
+            - data-fill-color: which changes the white color of the B inside the circle mark.
+            - data-mark-only: if set to "true" it only renders the (B) mark, if set to "mobile" it only renders the (B) mark when innerWidth is less than 767px (assuming you are using bb-responsive-styles.css) positioned on the left, or to position the mobile (B) on the right you can also set it to "mobile-right"
+        -->
+        <section id="logo"></section>
+      """
+
+    # https://snippet-generator.app/?description=BBElements+h1+snippet&tabtrigger=bb.h1&snippet=%3Ch1%3E%24%7B0%3AHeader+1%7D%3C%2Fh1%3E&mode=atom
+    'BBElements h1 snippet':
+      'prefix': 'bb.h1'
+      'body': """
+        <h1>${0:Header 1}</h1>
+      """
+
+    'BBElements h2 snippet':
+      'prefix': 'bb.h2'
+      'body': """
+         <h2>${0:Header 2}</h2>
+     """
+
+    'BBElements h3 snippet':
+      'prefix': 'bb.h3'
+      'body': """
+         <h3>${0:Header 3}</h3>
+     """
+
+     # https://snippet-generator.app/?description=BBElements+tags+snippet&tabtrigger=bb.tags&snippet=%3Cspan+class%3D%22tags%22%3E%0A++++%3Ca+href%3D%22%23%22%3E%24%7B0%3ATag%7D%3C%2Fa%3E%0A%3C%2Fspan%3E&mode=atom
+    'BBElements tags snippet':
+      'prefix': 'bb.tags'
+      'body': """
+        <span class="tags">
+            <a href="#">${0:Tag}</a>
+        </span>
+      """
+
+     # https://snippet-generator.app/?description=BBElements+date+snippet&tabtrigger=bb.date&snippet=%3Cdiv+class%3D%22date%22%3E%24%7B0%3AJanuary+1%2C+2045%7D%3C%2Fdiv%3E&mode=atom
+    'BBElements date snippet':
+      'prefix': 'bb.date'
+      'body': """
+        <div class="date">${0:January 1, 2045}</div>
+      """
+     
+     # https://snippet-generator.app/?description=BBElements+marginal+note+snippet&tabtrigger=bb.marginal-note&snippet=%3Cspan+class%3D%22marginal-note%22+data-info%3D%22%24%7B0%3Amarginal+note+goes+in+here+as+%5Bmarkdown%5D%28%23%29%7D%22%3E%3C%2Fspan%3E&mode=atom
+    'BBElements marginal note snippet':
+      'prefix': 'bb.marginal-note'
+      'body': """
+        <span class="marginal-note" data-info="${0:marginal note goes in here as [markdown](#)}"></span>
+      """
+
+    # https://snippet-generator.app/?description=BBElements+quote+snippet&tabtrigger=bb.quote&snippet=%3Cspan+class%3D%22quote%22+data-credit%3D%22%24%7B1%3ADr.+Ipsum+%5Bpublication%5D%28https%3A%2F%2Fwebsite.org%29%7D%22%3E%0A++++%24%7B0%3AThis+is+something+someone+said%7D%0A%3C%2Fspan%3E&mode=atom
+    'BBElements quote snippet':
+      'prefix': 'bb.quote'
+      'body': """
+        <span class="quote" data-credit="${1:Dr. Ipsum [publication](https://website.org)}">
+            ${0:This is something someone said}
+        </span>
+      """
+
+     # https://snippet-generator.app/?description=BBElements+media+block+snippet&tabtrigger=bb.media-block&snippet=%3Csection+class%3D%22media%22+data-fullwidth%3D%22%24%7B1%3Atrue%7D%22%3E%0A++++%3Cimg+src%3D%22%24%7B0%3Aimage.jpg%7D%22+alt%3D%22%24%7B2%3AText+that+appears+under+the+%5Bimage%5D%28%23%29%7D%22%3E%0A%3C%2Fsection%3E&mode=atom
+    'BBElements media block snippet':
+      'prefix': 'bb.media-block'
+      'body': """
+        <section class="media" data-fullwidth="${1:true}">
+            <img src="${0:image.jpg}" alt="${2:Text that appears under the [image](#)}">
+        </section>
+      """
+
+     # https://snippet-generator.app/?description=BBElements+media+inline+snippet&tabtrigger=bb.media-inline&snippet=%3Cp%3E%0A++%3Cimg+src%3D%22%24%7B0%3Aimage.jpg%7D%22%3E+%0A++%24%7B1%3AThe+paragraph+of+text+the+image+will+be+assosciated+with+goes+here.%7D%7D%0A%3C%2Fp%3E&mode=atom
+    'BBElements media inline snippet':
+      'prefix': 'bb.media-inline'
+      'body': """
+        <p>
+          <img src="${0:image.jpg}"> 
+          ${1:The paragraph of text the image will be assosciated with goes here.}
+        </p>
+      """
+
+     # https://snippet-generator.app/?description=BBElements+code+snippet&tabtrigger=bb.code&snippet=%3Cpre+class%3D%22code%22%3E%0A++++%3Ccode+class%3D%22%24%7B1%3Ajavascript%7D%22+data-wrap%3D%22%24%7B2%3Afalse%7D%22%3E%0A%24%7B3%3A%2F%2F+code+goes+here%7D%0A++++%3C%2Fcode%3E%0A%3C%2Fpre%3E&mode=atom
+    'BBElements code snippet':
+      'prefix': 'bb.code'
+      'body': """
+        <pre class="code">
+            <code class="${1:javascript}" data-wrap="${2:false}">
+        ${3:// code goes here}
+            </code>
+        </pre>
+      """
