@@ -139,7 +139,7 @@
 		"body": [
 		  "<p>",
 		  "  <img src=\"${0:image.jpg}\"> ",
-		  "  ${1:The paragraph of text the image will be assosciated with goes here.}}",
+		  "  ${1:The paragraph of text the image will be assosciated with goes here.}",
 		  "</p>"
 		],
 		"description": "BBElements media inline snippet"
