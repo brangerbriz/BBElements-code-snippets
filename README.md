@@ -47,3 +47,7 @@ CTRL + SPACE activates your list of snippets, press TAB or ENTER to select ones.
 Atom snippets are enabled by default for and should be autosuggested as you type. The BBElements code snippets are named like `bb.*`, however in Atom, typing the "." key restarts the snippet autocomplete. You can replace the "." with "-" while specifying your snippet to account for this (e.g. type `bb-quote` and `bb-media-block` instead of `bb.quote` and `bb.media-block`). Press TAB or ENTER to select a snippet once it is suggested. Once you have selected the snippet, pressing TAB will jump between autofill parameters if the snippet includes any.
 
 BBElements snippets are only supported in files with the `.html` and `.md` file extension.
+
+## Info
+
+These snippets were created by manually compiling output from https://snippet-generator.app/ into `vscode/bbelements.code-snippets` and `atom/snippets.cson`. See those source files for links to the original snippet-generator snippets.
