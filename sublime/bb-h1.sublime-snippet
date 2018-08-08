@@ -1,0 +1,10 @@
+<!-- https://snippet-generator.app/?description=BBElements+h1+snippet&tabtrigger=bb.h1&snippet=%3Ch1%3E%24%7B0%3AHeader+1%7D%3C%2Fh1%3E&mode=sublimetext -->
+<snippet>
+  <content><![CDATA[
+<h1>${0:Header 1}</h1>
+]]></content >
+  <description>BBElements h1 snippet</description>
+  <tabTrigger>bb.h1</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope >source.python</scope > -->
+</snippet >

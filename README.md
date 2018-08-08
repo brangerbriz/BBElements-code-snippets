@@ -1,6 +1,6 @@
 # BBElements Code Snippets
 
-[BBElements](https://github.com/brangerbriz/BBElements) code snippets for VS Code and Atom editors.
+[BBElements](https://github.com/brangerbriz/BBElements) code snippets for VS Code, Atom, and Sublime Text.
 
 ## Installing
 
@@ -19,6 +19,17 @@ At the time of this writing `~/.config/Code/User/snippets/` is the snippets dire
 Atom saves all user defined snippets in one file, so it's probably safer to copy + paste [this file](https://raw.githubusercontent.com/brangerbriz/BBElements-code-snippets/master/atom/snippets.cson) into your editor's `snippets.cson` file rather than overwriting it and clobbering your existing snippets. On linux this file lives in `~/.atom/snippets.cson`.
 
 See the [Atom snippets documentation](https://flight-manual.atom.io/using-atom/sections/snippets/) for more info.
+
+### Sublime Text
+
+```bash
+# clone the repo
+git clone https://github.com/brangerbriz/BBElements-code-snippets
+
+# Install path varies dependent on operating system, this is the install path for Linux
+INSTALL_PATH="~/.config/sublime-text-3/Packages/User/BBElements-code-snippets"
+cp -r BBElements-code-snippets/sublime $INSTALL_PATH
+```
 
 ## Usage
 
@@ -48,6 +59,10 @@ Atom snippets are enabled by default for and should be autosuggested as you type
 
 BBElements snippets are only supported in files with the `.html` and `.md` file extension.
 
+### Sublime Text
+
+Snippets in sublime text are triggered by typing the snippet name (e.g. bb.date, bb.code, etc.) and then pressing the TAB key. 
+
 ## Info
 
-These snippets were created by manually compiling output from https://snippet-generator.app/ into `vscode/bbelements.code-snippets` and `atom/snippets.cson`. See those source files for links to the original snippet-generator snippets.
+These snippets were created by manually compiling output from https://snippet-generator.app/ into `vscode/bbelements.code-snippets`, `atom/snippets.cson`, and `sublime/*.sublime-snippet`. See those source files for links to the original snippet-generator snippets.

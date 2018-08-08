@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+<h2>${0:Header 2}</h2>
+]]></content >
+  <description>BBElements h2 snippet</description>
+  <tabTrigger>bb.h2</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope >source.python</scope > -->
+</snippet >

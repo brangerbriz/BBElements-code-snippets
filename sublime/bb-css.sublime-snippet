@@ -1,0 +1,17 @@
+<snippet>
+  <content><![CDATA[
+<!-- required: this is all the base64 @font-faces (avoids FOUT) -->
+<link rel="stylesheet" href="css/bb-fonts.css">
+<!-- required: this is the core styles file -->
+<link rel="stylesheet" href="css/bb-styles.css">
+<!-- optionally: if you want media-queries for responsive layout -->
+<link rel="stylesheet" href="css/bb-responsive.css">
+<!-- optionally: if you want code snippets to be syntax highlighted -->
+<link rel="stylesheet" href="css/bb-code-colors.css">
+<!-- optionally: if you want animations on load -->
+<link rel="stylesheet" href="css/bb-animations.css">
+]]></content >
+  <description>BBElements CSS includes snippet</description>
+  <tabTrigger>bb.css</tabTrigger>
+</snippet>
+

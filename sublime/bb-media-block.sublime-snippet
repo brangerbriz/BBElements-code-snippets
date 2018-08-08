@@ -1,0 +1,12 @@
+<!-- https://snippet-generator.app/?description=BBElements+media+block+snippet&tabtrigger=bb.media-block&snippet=%3Csection+class%3D%22media%22+data-fullwidth%3D%22%24%7B1%3Atrue%7D%22%3E%0A++++%3Cimg+src%3D%22%24%7B0%3Aimage.jpg%7D%22+alt%3D%22%24%7B2%3AText+that+appears+under+the+%5Bimage%5D%28%23%29%7D%22%3E%0A%3C%2Fsection%3E&mode=sublimetext -->
+<snippet>
+  <content><![CDATA[
+<section class="media" data-fullwidth="${1:true}">
+    <img src="${0:image.jpg}" alt="${2:Text that appears under the [image](#)}">
+</section>
+]]></content >
+  <description>BBElements media block snippet</description>
+  <tabTrigger>bb.media-block</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope >source.python</scope > -->
+</snippet >

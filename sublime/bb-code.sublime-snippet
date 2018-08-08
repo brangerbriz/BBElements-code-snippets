@@ -1,0 +1,14 @@
+<!-- https://snippet-generator.app/?description=BBElements+code+snippet&tabtrigger=bb.code&snippet=%3Cpre+class%3D%22code%22%3E%0A++++%3Ccode+class%3D%22%24%7B1%3Ajavascript%7D%22+data-wrap%3D%22%24%7B2%3Afalse%7D%22%3E%0A%24%7B3%3A%2F%2F+code+goes+here%7D%0A++++%3C%2Fcode%3E%0A%3C%2Fpre%3E&mode=sublimetext -->
+<snippet>
+  <content><![CDATA[
+<pre class="code">
+    <code class="${1:javascript}" data-wrap="${2:false}">
+${3:// code goes here}
+    </code>
+</pre>
+]]></content >
+  <description>BBElements code snippet</description>
+  <tabTrigger>bb.code</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope >source.python</scope > -->
+</snippet >

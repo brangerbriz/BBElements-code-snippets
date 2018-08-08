@@ -1,0 +1,13 @@
+<snippet>
+<!-- https://snippet-generator.app/?description=BBElements+script+includes+snippet&tabtrigger=bb.scripts&snippet=%3C%21--+optionally%3A+if+you+want+code+snippets+to+be+syntax+highlighted+--%3E%0A%3Cscript+src%3D%22js%2FhighlightJS%2Fhighlight.pack.js%22%3E%3C%2Fscript%3E%0A%3C%21--+required%3A+handles+misc+logic+%28logo%2C+marginal+notes%2C+captions%2C+etc%29+--%3E%0A%3Cscript+src%3D%22js%2FBBElements.js%22%3E%3C%2Fscript%3E&mode=sublimetext -->
+  <content><![CDATA[
+<!-- optionally: if you want code snippets to be syntax highlighted -->
+<script src="js/highlightJS/highlight.pack.js"></script>
+<!-- required: handles misc logic (logo, marginal notes, captions, etc) -->
+<script src="js/BBElements.js"></script>
+]]></content >
+  <description>BBElements script includes snippet</description>
+  <tabTrigger>bb.scripts</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope >source.python</scope > -->
+</snippet >

@@ -1,0 +1,10 @@
+<!-- https://snippet-generator.app/?description=BBElements+marginal+note+snippet&tabtrigger=bb.marginal-note&snippet=%3Cspan+class%3D%22marginal-note%22+data-info%3D%22%24%7B0%3Amarginal+note+goes+in+here+as+%5Bmarkdown%5D%28%23%29%7D%22%3E%3C%2Fspan%3E&mode=sublimetext -->
+<snippet>
+  <content><![CDATA[
+<span class="marginal-note" data-info="${0:marginal note goes in here as [markdown](#)}"></span>
+]]></content >
+  <description>BBElements marginal note snippet</description>
+  <tabTrigger>bb.marginal-note</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope >source.python</scope > -->
+</snippet >

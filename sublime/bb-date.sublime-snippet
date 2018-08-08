@@ -1,0 +1,10 @@
+<!-- https://snippet-generator.app/?description=BBElements+date+snippet&tabtrigger=bb.date&snippet=%3Cdiv+class%3D%22date%22%3E%24%7B0%3AJanuary+1%2C+2045%7D%3C%2Fdiv%3E&mode=sublimetext -->
+<snippet>
+  <content><![CDATA[
+<div class="date">${0:January 1, 2045}</div>
+]]></content >
+  <description>BBElements date snippet</description>
+  <tabTrigger>bb.date</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope >source.python</scope > -->
+</snippet >

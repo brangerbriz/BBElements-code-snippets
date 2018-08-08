@@ -1,0 +1,12 @@
+<!-- https://snippet-generator.app/?description=BBElements+quote+snippet&tabtrigger=bb.quote&snippet=%3Cspan+class%3D%22quote%22+data-credit%3D%22%24%7B1%3ADr.+Ipsum+%5Bpublication%5D%28https%3A%2F%2Fwebsite.org%29%7D%22%3E%0A++++%24%7B0%3AThis+is+something+someone+said%7D%0A%3C%2Fspan%3E&mode=sublimetext -->
+<snippet>
+  <content><![CDATA[
+<span class="quote" data-credit="${1:Dr. Ipsum [publication](https://website.org)}">
+    ${0:This is something someone said}
+</span>
+]]></content >
+  <description>BBElements quote snippet</description>
+  <tabTrigger>bb.quote</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope >source.python</scope > -->
+</snippet >

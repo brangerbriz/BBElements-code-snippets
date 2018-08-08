@@ -1,0 +1,13 @@
+<!-- https://snippet-generator.app/?description=BBElements+media+inline+snippet&tabtrigger=bb.media-inline&snippet=%3Cp%3E%0A++%3Cimg+src%3D%22%24%7B0%3Aimage.jpg%7D%22%3E+%0A++%24%7B1%3AThe+paragraph+of+text+the+image+will+be+assosciated+with+goes+here.%7D%7D%0A%3C%2Fp%3E&mode=sublimetext -->
+<snippet>
+  <content><![CDATA[
+<p>
+  <img src="${0:image.jpg}"> 
+  ${1:The paragraph of text the image will be assosciated with goes here.}}
+</p>
+]]></content >
+  <description>BBElements media inline snippet</description>
+  <tabTrigger>bb.media-inline</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope >source.python</scope > -->
+</snippet >

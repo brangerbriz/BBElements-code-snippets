@@ -1,0 +1,19 @@
+<!-- https://snippet-generator.app/?description=BBElements+logo+snippet&tabtrigger=bb.logo&snippet=%3C%21-+BB+LOGO+OPTIONAL+HTML+ATTRIBUTES%0A++++-+width%3A+changes+the+size+of+the+logo.%0A++++-+href%3A+specifies+where+to+link+the+logo+to.+When+no+href+is+specified+the+link+defaults+to+our+website%2C+when+set+to+href%3D%22false%22+it+won%27t+link+anywhere.%0A++++-+data-sub-title%3A+adds+a+sub-title+below+the+logo.%0A++++-+data-brand-color%3A+which+changes+the+default+pink+color.%0A++++-+data-text-color%3A+which+changes+the+default+black+text+color.%0A++++-+data-fill-color%3A+which+changes+the+white+color+of+the+B+inside+the+circle+mark.%0A++++-+data-mark-only%3A+if+set+to+%22true%22+it+only+renders+the+%28B%29+mark%2C+if+set+to+%22mobile%22+it+only+renders+the+%28B%29+mark+when+innerWidth+is+less+than+767px+%28assuming+you+are+using+bb-responsive-styles.css%29+positioned+on+the+left%2C+or+to+position+the+mobile+%28B%29+on+the+right+you+can+also+set+it+to+%22mobile-right%22%0A--%3E%0A%3Csection+id%3D%22logo%22%3E%3C%2Fsection%3E&mode=sublimetext -->
+<snippet>
+  <content><![CDATA[
+<!- BB LOGO OPTIONAL HTML ATTRIBUTES
+    - width: changes the size of the logo.
+    - href: specifies where to link the logo to. When no href is specified the link defaults to our website, when set to href="false" it won't link anywhere.
+    - data-sub-title: adds a sub-title below the logo.
+    - data-brand-color: which changes the default pink color.
+    - data-text-color: which changes the default black text color.
+    - data-fill-color: which changes the white color of the B inside the circle mark.
+    - data-mark-only: if set to "true" it only renders the (B) mark, if set to "mobile" it only renders the (B) mark when innerWidth is less than 767px (assuming you are using bb-responsive-styles.css) positioned on the left, or to position the mobile (B) on the right you can also set it to "mobile-right"
+-->
+<section id="logo"></section>
+]]></content >
+  <description>BBElements logo snippet</description>
+  <tabTrigger>bb.logo</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope >source.python</scope > -->
+</snippet >
